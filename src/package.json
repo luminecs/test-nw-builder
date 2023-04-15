@@ -1,0 +1,11 @@
+{
+    "name": "nw-app",
+    "description": "Test",
+    "version": "0.1.0",
+    "main": "./views/index.html",
+    "window": {
+      "toolbar": false,
+      "width": 600,
+      "height": 600
+    }
+}
