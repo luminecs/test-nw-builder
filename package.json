@@ -4,7 +4,8 @@
   "main": "index.html",
   "scripts": {
     "dev": "nw src/",
-    "build": "nwbuild --mode=build --platforms win64,osx64,linux64 --buildDir dist/ src/"
+    "build": "nwbuild --mode=build --platforms win64,osx64,linux64 --buildDir dist/ src/",
+    "b": "nwbuild --mode=build --version=latest --flavor=normal --platform=linux --arch=x64 --downloadUrl=https://dl.nwjs.io --manifestUrl=https://nwjs.io/versions --cacheDir=./cache --outDir=./out --cache=true --ffmpeg=false --glob=false /src"
   },
   "type": "module",
   "devDependencies": {
