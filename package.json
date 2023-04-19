@@ -6,6 +6,7 @@
     "dev": "nw src/",
     "build": "nwbuild --mode=build --platforms win64,osx64,linux64 --buildDir dist/ src/"
   },
+  "type": "module",
   "devDependencies": {
     "nw": "^0.75.0",
     "nw-builder": "^4.2.2"
